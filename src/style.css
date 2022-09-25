@@ -1,1 +1,15 @@
-/* styles go here */
+fieldset:not(:nth-of-type(1)) {
+  margin-top: 20px;
+}
+
+fieldset > div {
+  margin-bottom: 10px;
+}
+
+fieldset > div:last-child {
+  margin-bottom: auto;
+}
+
+button {
+  margin-top: 10px;
+}
