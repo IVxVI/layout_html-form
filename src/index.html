@@ -13,10 +13,10 @@
   <body>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
 
-      <fieldset class="personalInfo">
+      <fieldset class="set personal">
         <legend>Personal information</legend>
 
-        <div class="personalInfoItem surname">
+        <div class="place surname">
           <label for="surname">
             Surname:
             <input
@@ -27,7 +27,7 @@
             >
           </label>
         </div>
-        <div class="personalInfoItem name">
+        <div class="place name">
           <label for="name">
             Name:
             <input
@@ -38,7 +38,7 @@
             >
           </label>
         </div>
-        <div class="personalInfoItem age">
+        <div class="place age">
           <label for="age">
             How old are You?
             <input
@@ -52,8 +52,8 @@
             >
           </label>
         </div>
-        <div class="personalInfoItem birth">
-          <label  for="date">
+        <div class="place birth">
+          <label for="date">
             Full date of birth:
             <input
               type="date"
@@ -74,9 +74,9 @@
         </label>
       </fieldset>
 
-      <fieldset class="registration">
+      <fieldset class="set registration">
         <legend>Registration</legend>
-        <div class="registrationItem email">
+        <div class="place email">
           <label for="email">
             E-mail:
             <input
@@ -87,7 +87,7 @@
             >
           </label>
         </div>
-        <div class="registrationItem password">
+        <div class="place password">
           <label for="password">
             Password:
             <input
@@ -99,9 +99,9 @@
         </div>
       </fieldset>
 
-      <fieldset class="facts">
+      <fieldset class="set facts">
         <legend>An interesting fact about you!</legend>
-        <div class="love">
+        <div class="place love">
           Do you love cats?
           <label>
             <input
@@ -120,7 +120,7 @@
             No
           </label>
         </div>
-        <div class="favColor">
+        <div class="place favColor">
           <label for="colorPalette">
             What is your favorite color?
             <input
@@ -130,7 +130,7 @@
             >
           </label>
         </div>
-        <div class="date">
+        <div class="place date">
           <label for="dateTime">
             What time do you go to bed?
           </label>
@@ -142,7 +142,7 @@
           >
         </div>
 
-        <div class="cars">
+        <div class="place cars">
           <label for="carsSelection">
             What are your favorite brand of cars?
             <select
@@ -158,7 +158,7 @@
           </label>
         </div>
 
-        <div class="rating">
+        <div class="place rating">
           <label for="ranging">
             How do you rate our work?
             <input
@@ -170,9 +170,9 @@
         </div>
       </fieldset>
 
-      <fieldset class="addInfo">
+      <fieldset class="set addInfo">
         <legend>Additional info</legend>
-        <div>
+        <div class="place last">
           <label class="comments">
             Comments:
             <textarea name="comment"
@@ -185,7 +185,7 @@
            ></textarea>
           </label>
         </div>
-        <div>
+        <div class="place">
           <label>
             Would you recommend us?
             <select>
@@ -195,7 +195,7 @@
           </label>
         </div>
       </fieldset>
-      <button type="submit">Submit</button>
+      <button type="submit" class="button">Submit</button>
     </form>
     <script type="text/javascript" src="./main.js"></script>
   </body>
