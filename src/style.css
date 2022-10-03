@@ -4,6 +4,11 @@
 
 .place {
   margin-bottom: 10px;
+  display: block;
+}
+
+.love {
+  display: inline-block;
 }
 
 .place:last-child {
